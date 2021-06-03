@@ -1,0 +1,3 @@
+equ = "All animals are equal."
+aqu = equ.replace("a", "@")
+print(equ)
