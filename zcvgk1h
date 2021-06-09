@@ -1,0 +1,13 @@
+tv = ["GOT", "Narcos", "Vice"]
+cmos = ["Arrested Development", "friends", "Always Sunny"]
+all_shows = []
+
+for show in tv:
+    show = show.upper()
+    all_shows.append(show)
+
+for show in cmos:
+    show = show.upper()
+    all_shows.append(show)
+
+print(all_shows)
